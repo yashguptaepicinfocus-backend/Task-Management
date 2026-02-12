@@ -10,9 +10,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: release  # Add environment for trusted publishing
     permissions:
-      id-token: write  # Required for trusted publishing
-      contents: read   # Required to checkout code
+      id-token: write   # Required for trusted publishing
+      contents: read    # Required to checkout code
     steps:
     - uses: actions/checkout@v4
     
@@ -39,3 +40,4 @@ jobs:
       with:
         skip-existing: true
         verbose: true
+        attestations: true
