@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include accounts/templates *
+recursive-include tasks/templates *
+recursive-include accounts/static *
+recursive-include tasks/static *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
