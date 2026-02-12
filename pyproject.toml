@@ -46,10 +46,10 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/django-task-management"
-"Bug Reports" = "https://github.com/yourusername/django-task-management/issues"
-"Source" = "https://github.com/yourusername/django-task-management"
-"Documentation" = "https://github.com/yourusername/django-task-management#readme"
+"Homepage" = "https://github.com/yashguptaepicinfocus-backend/Task-Management/"
+"Bug Reports" = "https://github.com/yashguptaepicinfocus-backend/Task-Management/issues"
+"Source" = "https://github.com/yashguptaepicinfocus-backend/Task-Management"
+"Documentation" = "https://github.com/yashguptaepicinfocus-backend/Task-Management/blob/main/README.md"
 
 [tool.setuptools.packages.find]
 where = ["."]
